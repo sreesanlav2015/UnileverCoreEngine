@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" parallel="tests" thread-count="5">
+
+	<!-- <test name="Login"> <classes> <class name="com.cucumber.framework.runner.LoginRunner"/> 
+		</classes> </test> -->
+
+	<test name="ScheduleActivity">
+		<classes>
+			<class name="com.cucumber.framework.runner.ScheduleActivityRunner" />
+		</classes>
+	</test>
+
+
+	<test name="Login">
+		<classes>
+			<class name="com.cucumber.framework.runner.LoginRunner" />
+		</classes>
+	</test>
+
+	<test name="Logout">
+		<classes>
+			<class name="com.cucumber.framework.runner.LogoutRunner" />
+		</classes>
+	</test>
+
+
+</suite> 

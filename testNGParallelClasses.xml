@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" parallel="classes" thread-count="5">
+
+
+	
+	<test name="Test_Classes"> 
+	<classes> 
+	<class name="com.cucumber.framework.runner.ScheduleActivityRunner"/> 
+    <class name="com.cucumber.framework.runner.LogoutRunner" /> 
+	</classes> 
+	</test>
+
+
+
+
+</suite> 
